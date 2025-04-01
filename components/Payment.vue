@@ -50,7 +50,7 @@
   </Modal>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const course = await useCourse();
 const config = useRuntimeConfig();
 const stripe = ref(null);
