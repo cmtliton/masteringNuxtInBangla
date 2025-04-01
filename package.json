@@ -23,7 +23,7 @@
     "prisma": "^6.5.0",
     "stripe": "^17.7.0",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
     "vite-plugin-vsharp": "^1.8.1"
   },
   "devDependencies": {
