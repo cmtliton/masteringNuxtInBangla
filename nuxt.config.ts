@@ -1,4 +1,4 @@
-import vsharp from "vite-plugin-vsharp";
+
 export default defineNuxtConfig({
   runtimeConfig: {
     stripeSecret: "",
@@ -12,9 +12,6 @@ export default defineNuxtConfig({
     prerender: {
       routes: ["/landing"],
     },
-  },
-  vite: {
-    plugins: [vsharp()],
   },
 
   modules: [
